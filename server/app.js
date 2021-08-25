@@ -26,10 +26,10 @@ io.on('connection', (socket) => {
 const port = 3333;
 
 const T = new Twit({
-  consumer_key: 'dx4tCScLh9UX3MiKh5PX6rXLW',
-  consumer_secret: 'k9oJbw6ckO8lwSR45fZ7Mth00fLiNpHKC7EOGZPg2NPRWHtK00',
-  access_token: '1155907035075993600-4YNue9uXbXUzhRbVTyabRwBUUea2vP',
-  access_token_secret: 'anVcY92KWKwtUv6obZXV1cnYRSsrKiZBeUqNm3x7b5xuJ',
+  consumer_key: 'your_cosumer_key',
+  consumer_secret: 'your_consumer_secret',
+  access_token: 'your_access_token',
+  access_token_secret: 'your_token_secret',
 });
 
 app.get('/api/:searchData/count/:tweetCount', (req, res) => {
